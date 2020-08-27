@@ -6,9 +6,11 @@
 // TODO: Use dynamic loading to prevent all templates to be loaded at once.
 import DefaultTemplate from "./default";
 import CustomTemplate from "./customTemplate";
+import blTemplates from "./billOfLading";
 
 export default {
   default: DefaultTemplate,
   CUSTOM_TEMPLATE: CustomTemplate,
+  BILL_OF_LADING: blTemplates,
   NULL: []
 };

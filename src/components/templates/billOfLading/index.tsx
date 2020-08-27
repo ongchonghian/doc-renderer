@@ -1,6 +1,6 @@
 import { BillOfLadingTemplate } from "./billOfLadingTemplate";
 
-export const templates = [
+export default template = [
   {
     id: "default",
     label: "Document",
